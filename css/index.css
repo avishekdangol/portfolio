@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.bg-image {
+  height: 100vh;
+  max-width: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.img1 {
+  background-image: url('../Images/bg_images/IMG_5548.JPG');
+}
+
+.img2 {
+  background-image: url('../Images/bg_images/IMG_4307.jpg');
+}
+
+.img3 {
+  background-image: url('../Images/bg_images/IMG_2718.jpg');
+}
+
+.img4 {
+  background-image: url('../Images/bg_images/IMG_1111.jpg');
+}
+
+.separator {
+  color: #b3b3b3;
+  max-width: 100px;
+  position: relative;
+  top: 40vh;
+  margin: auto;
+}
+
+.image-header {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #e6e6e6;
+  margin: 0;
+}
+
+.separator-bottom {
+  color: #b3b3b3;
+  max-width: 96px;
+  position: relative;
+  top: 65vh;
+  margin: auto;
+}
+
+#project {
+  width: 80%;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.showcase {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px 20px;
+}
+
+.showcase-image {
+  width: 100%;
+}
+
+.showcase-section {
+  background-color: #333333;
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none; 
+}
+
+.showcase-section:hover {
+  color: white;
+}
+
+.showcase-section:hover .code {
+  color: #ff7f50;
+}
+
+.showcase-section p {
+  margin: 0;
+  padding: 5px 0 15px;
+}
+
+.code {
+  color: #333333;
+  transition: color 0.3s ease-out;
+  font-size: 25px;
+}
+
+.header-button {
+  position: relative;
+  top: 55vh;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+.header-button:hover {
+  color: black;
+  background-color: white;
+}
+
+
+#profiles {
+  display: flex;
+  position: relative;
+  top: 50vh;
+  justify-content: center;
+}
+
+.fa {
+  margin: 10px 5px;
+  padding: 5px 2px 0;
+  background-color: ;
+  color: white;
+  border-radius: 5px;
+}
+
+.profile-links {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 10px;
+  outline: none;
+}
+
+.transition {
+  padding: 5px;
+  transition: transform 0.35s;
+}
+
+.transition:hover {
+  transform: translateY(8px);
+  cursor: pointer;
+}
+
+.transition:hover .fa,
+.transition:hover .profile-links {
+  color: orange;
+}
+
+#software {
+  margin: 50px auto 60px;
+  text-align: center;
+}
+
+#container {
+  width: 40%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 25px auto 70px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #container {
+    width: 60%;
+}
+  #des-icon {
+    width: 20vh;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  #container {
+    width: 80%;
+}
+}
+
+#des-icon {
+  height: 150px;
+  width: auto;
+}
+
+.des-para {
+  width: 70%;
+  padding: 10px 0;
+}
+
+#des-para1,
+#des-para2,
+#des-para3,
+#des-para4 {
+  display: none;
+}
+
+.showcase-software {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.software-icon {
+  width: 60px;
+  height: 60px;
+  padding-left: 20px;
+}
+
+.software-title {
+  font-weight: 600;
+}
+
+.catch {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.catch:hover {
+  opacity: 0.7;
+}
+
+#commission {
+  text-align: center;
+  margin: 50px auto;
+}
+
+#company-showcase {
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.company {
+  width: 15%;
+  height: 30%;
+  padding: 20px 50px;
+  transition: transform 0.5s ease-out;
+}
+
+.company:hover {
+  transform: scale(1.2);
+}
+
+.company-link {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+.company-logo {
+  height: 60px;
+  width: auto;
+}
+
+.company-name {
+  display: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .company-logo { 
+    height: 40px;
+    width: auto;
+   }
+
+  .company-name {
+     font-size: 10px;
+   }
+}
+
+@media only screen and (max-width: 550px) {
+  .company {
+    width: 30%;
+    height: 40%;
+  }
+}
+
+#dbros:hover .company-name {
+  display: block;
+}
+
+#capriccio:hover .company-name {
+  display: block;
+}
+
+#dreambeans:hover .company-name {
+  display: block;
+}
+
+#levites:hover .company-name {
+  display: block;
+}
+
+
+
+
+
+
+
+#copyright {
+  color: white;
+  position: relative;
+  top: 95vh;
+}

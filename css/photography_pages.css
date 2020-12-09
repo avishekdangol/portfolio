@@ -1,0 +1,161 @@
+body {
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.bg-image {
+  height: 100vh;
+  max-width: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.img_mardi {
+  background-image: url('../Images/Mardi/IMG_5604.jpg');
+}
+
+.img_langtang {
+  background-image: url('../Images/langtang/IMG_4308.jpg');
+};
+
+#showcase-wrapper {
+  text-align: center;
+}
+
+#header {
+  margin: 0 auto 20px;
+  padding: 30px;
+  background-color: black;
+}
+
+#header h2 {
+  color: white;
+  text-align: center;
+}
+
+#showcase {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 28px;
+  margin: auto;
+}
+
+#showcase > div {
+  height: 300px;
+  background-color: black;
+  margin-bottom: 25px;
+}
+
+.showcase-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.showcase-image:hover {
+  opacity: .75;
+}
+
+.overlay {
+  visibility: hidden;
+  background-color: #1a1a1a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: -10;
+}
+
+.show-overlay {
+  visibility: visible;
+  z-index: 10;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+#close {
+  font-size: 20px;
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  transition: transform 0.7s;
+  transition: color 0.7s;
+}
+
+#close:hover {
+  color: red;
+  transform: scale(1.5);
+}
+
+#next {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  right: 15%;
+  margin: auto 0;
+  transition: transform 0.7s;
+  opacity: 0.8;
+}
+
+#prev {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  left: 15%;
+  margin: auto 0;
+  transition: transform 0.7s;
+  opacity: 0.8;
+}
+
+#next:hover,
+#prev:hover {
+  transform: scale(1.5);  
+  opacity: 1;
+}
+
+#overlay-img {
+  width: auto;
+  height: 570px;
+  margin: auto;
+}
+
+#up {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#up img {
+  width: 60px;
+  height: auto;
+  transition: transform 0.25s;
+}
+
+#up img:hover {
+  transform: scale(0.8);  
+}
+
+
+

@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.bg-image {
+  height: 100vh;
+  max-width: inherit;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+#cover {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.separator {
+  color: #b3b3b3;
+  max-width: 100px;
+  position: relative;
+  top: 40vh;
+  margin: auto;
+}
+
+.image-header {
+  position: relative;
+  top: 50vh;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #e6e6e6;
+  margin: 0;
+}
+
+.separator-bottom {
+  color: #b3b3b3;
+  max-width: 96px;
+  position: relative;
+  top: 65vh;
+  margin: auto;
+}
+
+#project {
+  width: 80%;
+  text-align: center;
+  margin: 60px auto;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+#header-logo {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+#header-title {
+  margin-bottom: 0;
+}
+
+#slogan {
+  font-style: italic;
+  margin: 0;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+
+}
+
+#info {
+  padding: 20px 90px;
+  text-align: justify;
+  text-justify: inter-words;
+}
+
+#showcase img {
+  width: 100%;
+  padding: 20px 10px 10px;
+  object-fit: cover;
+  transition: transform .4s ease-out;
+}
+
+#showcase img:hover {
+  opacity: 0.8;
+  transform: scale(0.97);
+  object-fit: contain;
+  background-color: #e6e6e6;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.showcase-sections {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: auto;
+}
+
+#showcase > h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#showcase > p {
+  margin: 0 auto 60px;
+}
+
+.gif-ad {
+  width: 85%;
+  height: auto;
+}
+
+.showcase-videos {
+  padding: 30px 0;
+}
+
+.showcase-videos iframe{
+  width: 100%;
+}
+
+.overlay {
+  visibility: hidden;
+  background-color: #1a1a1a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: -10;
+}
+
+.show-overlay {
+  visibility: visible;
+  z-index: 10;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+#close {
+  font-size: 20px;
+  position: absolute;
+  left: 90%;
+  top: 10%;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.7s;
+  transition: color 0.7s;
+}
+
+#close:hover {
+  color: red;
+  transform: scale(1.5);
+}
+
+#next {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  right: 10%;
+  margin: auto 0;
+  transition: transform 0.7s;
+  opacity: 0.8;
+}
+
+#prev {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  left: 10%;
+  margin: auto 0;
+  transition: transform 0.7s;
+  opacity: 0.8;
+}
+
+#next:hover,
+#prev:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.overlay-img {
+  width: 960px;
+  height: auto;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

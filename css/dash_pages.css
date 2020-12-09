@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar h1 {
+  font-size: 16px;
+}
+
+.nav-links {
+  color: #d9d9d9
+}
+
+.nav-links:hover {
+  color: #fff;
+}
+
+.side-panel {
+  width: 25%;
+}
+
+#sidebar-title {
+  font-weight: 700;
+  background-color: #d9d9d9;
+  margin-top: 30px;
+}
+
+#showcase {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 28px;
+  margin-top: 20px;
+}
+
+.image-div {
+  height: 270px;
+  width: 270px;
+  background-color: black;
+  margin: 10px;
+}
+
+.showcase-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.del {
+  visibility: hidden;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #e60000;
+  position: relative;
+  bottom: 260px;
+  left: 240px;
+  transition: transform 0.75s;
+  font-size: 18px;
+}
+
+.del:hover {
+  color: #ff3333;
+  visibility: visible;
+}
+
+.show-btn {
+  visibility: visible;
+}
+
+.image-upload {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.image-upload > form > input {
+  margin-top: 20px;
+}
+
+.image-info {
+  text-align: center;
+}
+
+.image-info > p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#image-upload {
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+}
+
+.image-input {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+  margin: 0 5px;
+  border: solid 2px teal;
+  border-radius: 5px;
+}
+
+.title-input {
+  font-weight: 550;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 0 5px;
+  position: relative;
+  bottom: 5px;
+}
+

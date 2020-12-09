@@ -1,0 +1,60 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+}
+
+#wrapper {
+  background-color: #fff;
+  margin: auto; 
+  width: 30%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid #e6e6e6;
+  border-radius: 8px;
+}
+
+.inputs {
+  font-weight: bold;
+  text-align: left;
+}
+
+#login {
+  text-align: center;
+  margin: 35px auto;
+  padding: 15px;
+  width: 80%;
+}
+
+.login-input {
+  padding: 15px;
+  width: 300px;
+}
+
+.login-input:focus {
+  border: 1.5px solid #66ff33;
+}
+
+.error {
+  color: red;
+}
+
+#submit {
+  padding: 10px 60px;
+  color: #fff;
+  font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background: linear-gradient(180deg,#139ff0 0,#007fed);
+  background-image: linear-gradient(rgb(19, 159, 240) 0px, rgb(0, 127, 237));
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: none;
+  background-color: #007fed;
+}
+

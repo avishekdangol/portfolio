@@ -1,0 +1,42 @@
+
+const showDiv = document.querySelectorAll('.catch');
+const showIcon = document.querySelector('#des-icon');
+const showPara = document.querySelector('#des-para');
+
+const photoshop = document.getElementById("photoshop");
+const lightroom = document.getElementById("lightroom");
+const illustrator = document.getElementById("illustrator");
+const premiere = document.getElementById("premiere-pro");
+
+showDiv.forEach(function(show) {
+  show.addEventListener("click", function(e) {
+  const action = e.currentTarget.childNodes[1];
+  if (action === photoshop) {
+  showIcon.src = photoshop.src;
+  showPara.textContent = document.getElementById("des-para1").textContent;
+}
+
+  if (action === lightroom) {
+  showIcon.src = lightroom.src;
+  showPara.textContent = document.getElementById("des-para2").textContent;
+}
+
+  if (action === illustrator) {
+  showIcon.src = illustrator.src;
+  showPara.textContent = document.getElementById("des-para3").textContent;
+}
+
+  if (action === premiere) {
+  showIcon.src = premiere.src;
+  showPara.textContent = document.getElementById("des-para4").textContent;
+}
+})
+})
+
+
+const links = document.querySelector(".links");
+const toggle = document.querySelector(".toggle-button");
+
+toggle.addEventListener("click", function() {
+  links.classList.toggle("show-links");
+})
