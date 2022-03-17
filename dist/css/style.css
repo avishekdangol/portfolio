@@ -92,8 +92,10 @@ common
 }
 
 /* ----- size ----- */
-.w-50 {
-  width: 50%;
+@media screen and (min-width: 1200px) {
+  .width-50 {
+    width: 50%;
+  }
 }
 
 /* ----- text defaults ----- */
