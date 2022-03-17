@@ -98,6 +98,12 @@ common
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .width-mb-100 {
+    width: 100%;
+  }
+}
+
 /* ----- text defaults ----- */
 body {
   color: #8c8c8e;
