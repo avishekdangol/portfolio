@@ -98,7 +98,7 @@ common
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 450px) {
   .width-mb-100 {
     width: 100%;
   }
