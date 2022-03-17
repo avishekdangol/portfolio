@@ -1922,6 +1922,10 @@ content
   display: flex;
   color: #FFC107;
 }
+.art-testimonial .art-testimonial-footer .art-star-rate-popup {
+  padding: 5px 0;
+  background: transparent;
+}
 .art-testimonial .art-testimonial-footer .art-star-rate li {
   list-style-type: none;
   margin-right: 5px;
