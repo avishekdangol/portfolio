@@ -106,7 +106,7 @@ body {
   font-smooth: subpixel-antialiased;
 }
 
-a:lang(NP), h1:lang(NP), h3:lang(NP), h4:lang(NP), h5:lang(NP), h6:lang(NP), li:lang(NP), p:lang(NP), span:lang(NP), .code:lang(NP), .np {
+a:lang(NP), h1:lang(NP), h3:lang(NP), h4:lang(NP), h5:lang(NP), h6:lang(NP), li:lang(NP), p:lang(NP), span:lang(NP), .code:lang(NP), title:lang(NP), .np {
   font-family: Abhinav;
 }
 
