@@ -193,7 +193,7 @@ h6 {
 }
 
 .art-lg-text {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .art-xl-text {
@@ -1616,6 +1616,9 @@ content
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   padding: 30px;
   margin-bottom: 30px;
+}
+.art-card-20-p {
+  padding: 30px 20px;
 }
 .art-card.art-fluid-card {
   height: calc(100% - 30px);
