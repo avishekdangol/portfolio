@@ -1056,14 +1056,6 @@ info bar
   transition: 0.2s ease-in-out;
   outline: inherit;
 }
-.art-info-bar .art-header .art-avatar .art-avatar-curtain:hover i {
-  opacity: .7;
-}
-.art-info-bar .art-header .art-avatar .art-avatar-curtain:hover i:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.07);
-          transform: scale(1.07);
-}
 .art-info-bar .art-header .art-avatar .art-lamp-light {
   z-index: 2;
 }
