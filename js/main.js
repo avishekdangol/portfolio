@@ -6,7 +6,21 @@ $(function() {
   // Initial Language and Toggle Language
   
   function lang() {
-    const currentLangElement = $('.art-active-lang');
+    let currentLangElement;
+    let preferredLang = localStorage.getItem("lang");
+
+    if (preferredLang) {
+      const langs = document.querySelectorAll("li.art-lang");
+
+      langs.forEach(lang => {
+        lang.classList.remove('art-active-lang');
+        if (lang.textContent == preferredLang) {
+          currentLangElement = lang;
+
+          currentLangElement.classList.add("art-active-lang");
+        }
+      })
+    } else currentLangElement = $('.art-active-lang')
 
     // hides all the other languages except the current language
     $(currentLangElement).siblings().each(function(index, sibling) {
@@ -25,6 +39,8 @@ $(function() {
     // if the clicked language is the current language, return
     if (currentLang == target.textContent) 
 	return; 
+
+    localStorage.setItem('lang', target.textContent)
 
     // remove the active class from previous active language
     $(target).siblings().each(function(index, sibling) {
