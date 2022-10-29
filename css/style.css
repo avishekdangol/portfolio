@@ -131,6 +131,7 @@ h5:lang(NP) {
 }
 
 li:lang(NP),
+p:lang(NP),
 a:lang(NP) {
   font-size: 18px;
 }
