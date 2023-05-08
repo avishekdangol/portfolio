@@ -470,6 +470,15 @@ button
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
+.art-btn-outline {
+  background: none;
+  border: 2px solid #FFC107;
+  color: #FFC107;
+}
+.art-btn-outline:hover {
+  background: #FFC107;
+  color: #20202e;
+}
 .art-btn:lang(EN) {
   text-transform: uppercase;
   letter-spacing: 1.5px;
