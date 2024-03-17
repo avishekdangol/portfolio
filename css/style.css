@@ -91,6 +91,11 @@ common
   src:url("../fonts/abhinav.ttf");
 }
 
+@font-face {
+  font-family: Aakriti;
+  src:url("../fonts/aakriti.ttf");
+}
+
 /* ----- size ----- */
 @media screen and (min-width: 1200px) {
   .width-50 {
@@ -132,7 +137,8 @@ h5:lang(NP) {
 
 li:lang(NP),
 p:lang(NP),
-a:lang(NP) {
+a:lang(NP),
+span:lang(NP) {
   font-size: 18px;
 }
 
@@ -147,6 +153,10 @@ a:lang(NP) {
 .english:lang(NP) {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
+}
+
+.min-h-150 {
+  min-height: 150px;
 }
 
 @media screen and (max-width: 450px) {
@@ -1875,7 +1885,10 @@ content
 }
 
 .art-testimonial {
-  min-height: 260px;
+  min-height: 276px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
   position: relative;
   background-size: cover;
   padding: 30px;
