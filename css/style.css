@@ -114,7 +114,7 @@ body {
   font-smooth: subpixel-antialiased;
 }
 
-a:lang(NP), h1:lang(NP), h3:lang(NP), h4:lang(NP), h5:lang(NP), h6:lang(NP), li:lang(NP), p:lang(NP), span:lang(NP), .code:lang(NP), div:lang(NP) .np {
+a:lang(NP), h1:lang(NP), h3:lang(NP), h4:lang(NP), h5:lang(NP), h6:lang(NP), li:lang(NP), p:lang(NP), span:lang(NP), .code:lang(NP), .np {
   font-family: Abhinav;
 }
 
@@ -407,7 +407,7 @@ link
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   font-size: 9px;
-  top: 0.3px;
+  top: 2px;
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
   -webkit-transition: 0.4s ease-in-out;
