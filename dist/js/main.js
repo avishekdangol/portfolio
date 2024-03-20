@@ -282,7 +282,7 @@ $(function() {
 
   bar.animate(.85);
 
-  var bar = new ProgressBar.Line(wordpress, {
+  var bar = new ProgressBar.Line(react, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
@@ -297,7 +297,7 @@ $(function() {
     }
   });
 
-  bar.animate(.85);
+  bar.animate(.80);
 
   // Contact form
   $('.art-input').keyup(function() {
